@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import FoodReview from "../foodReview/foodReview";
-import Form from "../form/form";
+import FoodReview from "../FoodReview/FoodReview";
+import Form from "../Form/Form";
 
 const Main = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [data, setData] = useState([]);
-  const [editFood, setEditFood] = useState(null); 
+  const [editFood, setEditFood] = useState(null);
 
   const handleOpen = () => {
     setEditFood(null);
