@@ -1,8 +1,6 @@
 const FoodReview = ({ data, onEdit, onDelete }) => {
-  if ( data.length === 0) {
-    return (
-      <p className="text-center text-slate-500 mt-6">No foods added</p>
-    );
+  if (data.length === 0) {
+    return <p className="text-center text-slate-500 mt-6">No foods added</p>;
   }
 
   return (
@@ -50,7 +48,7 @@ const FoodReview = ({ data, onEdit, onDelete }) => {
             )}
           </div>
 
-          <div className="flex justify-between gap-2 mt-4"> 
+          <div className="flex justify-between gap-2 mt-4">
             <button
               onClick={() => onEdit(food)}
               className="flex-1 bg-green-600 text-white font-medium py-2 rounded-lg cursor-pointer"
