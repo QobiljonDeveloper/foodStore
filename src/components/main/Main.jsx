@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FoodReview from "../FoodReview/FoodReview";
+import FoodReview from "../FoodReview21/FoodReview";
 import Form from "../Form/Form";
 
 const Main = () => {
