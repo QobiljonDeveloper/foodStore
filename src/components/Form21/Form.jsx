@@ -11,10 +11,8 @@ const Form = ({ onClose, setData, editFood }) => {
   const [halal, setHalal] = useState(false);
 
   const handleAddCountry = () => {
-    if (country.trim()) {
-      setCountries((prev) => [...prev, country.trim()]);
-      setCountry("");
-    }
+    setCountries((prev) => [...prev, country]);
+    setCountry("");
   };
 
   const handleRemoveCountry = (index) => {
@@ -22,10 +20,8 @@ const Form = ({ onClose, setData, editFood }) => {
   };
 
   const handleAddCategory = () => {
-    if (category.trim()) {
-      setCategories((prev) => [...prev, category.trim()]);
-      setCategory("");
-    }
+    setCategories((prev) => [...prev, category]);
+    setCategory("");
   };
 
   const handleRemoveCategory = (index) => {
