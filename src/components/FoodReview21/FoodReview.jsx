@@ -43,7 +43,7 @@ const FoodReview = ({ data, onEdit, onDelete }) => {
 
             {food.halal && (
               <span className="inline-block mt-3 bg-green-100 text-[#22C55E] text-xs font-medium px-3 py-1 rounded-full">
-                Halal ✅
+                Halal
               </span>
             )}
           </div>
