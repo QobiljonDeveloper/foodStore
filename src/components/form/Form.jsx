@@ -81,7 +81,7 @@ const Form = ({ onClose, setData, editFood }) => {
           <input
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            className="border w-full h-10 indent-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0EA5E9]"
+            className="border w-full h-10 indent-3 rounded-lg border-gray-300 focus:outline-none"
             type="text"
             placeholder="Name"
           />
@@ -89,14 +89,14 @@ const Form = ({ onClose, setData, editFood }) => {
           <textarea
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            className="border w-full h-20 indent-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0EA5E9] resize-none"
+            className="border w-full h-20 indent-3 rounded-lg border-gray-300 focus:outline-none"
             placeholder="Description"
           ></textarea>
 
           <input
             value={price}
             onChange={(e) => setPrice(e.target.value)}
-            className="border w-full h-10 indent-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0EA5E9]"
+            className="border w-full h-10 indent-3 rounded-lg border-gray-300 focus:outline-none "
             type="number"
             placeholder="Price"
           />
@@ -123,7 +123,7 @@ const Form = ({ onClose, setData, editFood }) => {
             <input
               value={country}
               onChange={(e) => setCountry(e.target.value)}
-              className="border flex-1 h-10 indent-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0EA5E9]"
+              className="border flex-1 h-10 indent-3 rounded-lg border-gray-300 focus:outline-none "
               type="text"
               placeholder="Country"
             />
@@ -158,7 +158,7 @@ const Form = ({ onClose, setData, editFood }) => {
             <input
               value={category}
               onChange={(e) => setCategory(e.target.value)}
-              className="border flex-1 h-10 indent-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0EA5E9]"
+              className="border flex-1 h-10 indent-3 rounded-lg border-gray-300 focus:outline-none "
               type="text"
               placeholder="Category"
             />
